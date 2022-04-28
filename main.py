@@ -6,7 +6,7 @@ import time
 
 # Set time of a single tick
 tick = .2
-follower_color = 'blue'
+follower_color = 'red'
 blink_color = 'blue'
 
 
@@ -105,9 +105,6 @@ my_entry.focus()
 
 button = Button(frame, text="Morsify", command=lambda: process(None))
 button.pack(pady=5)
-
-var = StringVar()
-var.set("")
 
 # Label to hold morse text
 fontstyle = tkFont.Font(family="Lucida Grande", size=30)

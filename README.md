@@ -5,6 +5,16 @@ This project was created for a school project to learn a life skill.  Morse code
 
 After considering options for outputting the Morse code, we settled on a GUI that blinks out the Morse code, and shows the dots and dashes.  After this, we decided that having a "follower" that shows what part of the code is currently playing would be nice.
 
+Setup
+-----------
+1. Install Git [like this](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+2. Clone this repository
+   1. Create a new folder in the location of your choice
+   2. Open a command/terminal window and navigate to the folder.  ``cd *folder*``
+   3. ``git clone https://github.com/teamgz-projects/Morsifier.git``
+3. Install python3 [like this](https://realpython.com/installing-python/)
+4. Back in the project directory, run ``python3 main.py``
+
 Technology
 ----------
 * Language = Python

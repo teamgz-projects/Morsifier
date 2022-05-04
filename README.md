@@ -12,8 +12,14 @@ Setup
    1. Create a new folder in the location of your choice
    2. Open a command/terminal window and navigate to the folder.  ``cd *folder*``
    3. ``git clone https://github.com/teamgz-projects/Morsifier.git``
-3. Install python3 [like this](https://realpython.com/installing-python/)
-4. Back in the project directory, run ``python3 main.py``
+   4. ``cd Morsifier``
+3. Install python version 3 
+   1. Check if python is installed ``python3 --version``
+   2. If the version number doesn't appear, install Python [like this](https://realpython.com/installing-python/)
+4. Install tkinter (GUI framework)
+   1. Check if tkinter is installed ``python3 -m tkinter``
+   2. If a window opens up, you have tkinter.  If not, it needs to be installed [like this](https://www.delftstack.com/howto/python-tkinter/install-tkinter/)
+5. ``python3 main.py``
 
 Technology
 ----------
